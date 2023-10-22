@@ -1,11 +1,13 @@
-package com.betrybe.agrix.ebytr.staff.service;
+package com.betrybe.agrix.service;
 
-import com.betrybe.agrix.ebytr.staff.entity.Person;
-import com.betrybe.agrix.ebytr.staff.exception.PersonNotFoundException;
-import com.betrybe.agrix.ebytr.staff.repository.PersonRepository;
+import com.betrybe.agrix.exceptions.PersonNotFoundException;
+import com.betrybe.agrix.model.entities.Person;
+import com.betrybe.agrix.model.repositories.PersonRepository;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+
 
 /**
  * Service layer class for handling persons business logic.
